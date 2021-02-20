@@ -1,0 +1,256 @@
+/*
+Theme name: HelloCommerce
+Theme URI: https://www.mohazon.com.bd
+Author: naim42
+Author URI: https://profiles.wordpress.org/naim42/
+Description: HelloCommerce is woocommerce compatible wordpress theme. If you are a startup, this theme will boost your sale twice indeed. enjoy a better view.
+Version: 1.0.0
+Text-domain: hellocommerce
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/license/gpl-2.0.html
+tags: e-commerce, ecommerce, woocommerce-theme, best-woocommerce-theme, footer-widgets, theme-options, translation-ready, blog, right-sidebar
+*/
+
+.top-bar{
+    background: rgb(216, 31, 56);
+    box-shadow: 0px 5px 4px 0px rgba(3, 3, 3, 0.33);
+    padding: 5px;
+    border-radius: 1px;
+    color: #fff;
+}
+
+.search{
+    background: #dc3545;
+    box-shadow: 2px 2px 10px 2px rgba(3, 3, 3, 0.226);
+    padding: 5px;
+    color: #fff;
+}
+
+.search-box{
+    background: #dd404f;
+    box-shadow: 2px 2px 10px 2px rgba(3, 3, 3, 0.226);
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    width:100%;
+    border: 0;
+}
+
+.search-box:focus-visible{
+    outline: none;
+    box-shadow: 2px 2px 10px 2px rgba(3, 3, 3, 0.507);
+}
+
+
+.brand{
+    background: rgb(224, 34, 59);
+}
+
+.second-column{
+    background: rgb(216, 31, 56);
+}
+
+.main-menu ul{
+    text-align: center;
+}
+
+.main-menu ul li{
+    display: inline;
+    margin: 0 7% 0 0;
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.main-menu ul li.current-menu-item a{
+    color: rgba(3, 3, 3, 0.71);
+}
+.footer-menu ul, .footer-widgets ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;  
+}
+
+.footer-menu ul li{
+    display: inline;
+    margin: 0 7% 0 0;
+}
+
+footer, .footer-menu ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5); 
+}
+
+.footer-menu ul li.current-menu-item a{
+    color: rgba(3, 3, 3, 0.71);
+}
+.copy-right{
+    padding-bottom: 20px;
+}
+footer{
+    background: rgb(224, 34, 59);  
+}
+
+/* woocommerce */
+.shop-content{
+    margin-top: 50px;
+}
+    /* buttons */
+    .woocommerce #respond input#submit, 
+    .woocommerce a.button, 
+    .woocommerce button.button, 
+    .woocommerce input.button{
+        background: #d81f42;
+        color: #fff;
+        border: 1px solid #de637a;
+        box-shadow: 2px 2px 5px 0 #ff0000c7;
+    }
+    .woocommerce #respond input#submit:hover, 
+    .woocommerce a.button:hover, 
+    .woocommerce button.button:hover, 
+    .woocommerce input.button:hover {
+        color: #fff;
+        background: #892ae7;
+        box-shadow: 2px 2px 5px 0 #892ae7b8;
+    }
+
+    .woocommerce #respond input#submit.alt, 
+    .woocommerce a.button.alt, 
+    .woocommerce button.button.alt,
+    .woocommerce input.button.alt{
+        background: #d81f42;
+        color: #fff;
+        border: 1px solid #de637a;
+        box-shadow: 2px 2px 5px 0 #ff0000c7;
+    }
+    .woocommerce #respond input#submit.alt:hover, 
+    .woocommerce a.button.alt:hover, 
+    .woocommerce button.button.alt:hover, 
+    .woocommerce input.button.alt:hover{
+        color: #fff;
+        background: #892ae7; 
+        box-shadow: 2px 2px 5px 0 #892ae7b8;
+    }
+
+    /* Select option */
+     .woocommerce div.product form.cart .variations select {
+        display: block;
+        width: 100%;
+        padding: .375rem 2.25rem .375rem .75rem;
+            padding-top: 0.375rem;
+            padding-bottom: 0.375rem;
+            padding-left: 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #000;
+        background-color: #04f8ec1c;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-position: right .75rem center;
+        background-size: 16px 12px;
+        border: 0.5px solid #04f8ec;
+        border-radius: .25rem;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .woocommerce div.product form.cart .variations select:focus {
+        border-color: #04f8ec;
+        outline: 0;
+        box-shadow: 0 0 0 .25rem rgba(13,110,253,.25);
+    } 
+    .woocommerce div.product form.cart .variations select option:hover {
+        background: #22dd36;
+    } 
+
+    /* On sale products */
+    .woocommerce ul.products li.product .onsale {
+        top: 0;
+        right: 0;
+        left: auto;
+        margin: -.5em -.5em 0 0;
+        background: #22dd36;
+        border-radius: 10px 0 10px 0;
+        box-shadow: -3px 3px 5px 1px #14fa00a6;
+    }
+    .woocommerce div.product span.onsale {
+        top: 0;
+        left: 0;
+        right: auto;
+        margin: -.5em 0 0 -.5em;
+        background: #22dd36;
+        border-radius: 0px 10px 0 10px;
+        box-shadow: 3px 3px 5px 1px #14fa00a6;
+    }
+
+    /* single product image*/
+    .woocommerce div.product div.images.woocommerce-product-gallery,
+    .woocommerce div.product div.images img {
+        width: 500px;
+        box-shadow: 5px 5px 10px 0px #00000038;
+    }
+
+    /* qty */
+    .qty {
+        border-radius: 5px;
+        padding: 5px;
+        width: 75px;
+        border: 0.5px solid #04f8ec;
+        background: #04f8ec1c;
+    }
+    .qty:focus-visible {
+        outline: none;
+        box-shadow: 0 0 5px 0 #04f8ec;
+    }
+
+    /* tabs */
+    .woocommerce div.product .woocommerce-tabs .panel {
+        margin: 0 0 2em;
+        padding: 20px;
+        border-radius: 0 60px;
+        box-shadow: 2px 2px 5px 0px rgba(102,102,102,0.5);
+    }
+
+    /* review button */
+    .woocommerce #review_form #respond .form-submit input {
+        border-radius: 0 35px;
+    }
+
+    /* my account */
+    .woocommerce-MyAccount-navigation ul{
+        list-style: none;
+        text-decoration: none;
+        background: #DC3545;
+        width: 80%;
+        padding: 20px;
+        box-shadow: 4px 4px 5px 1px #ff0000ab;
+    }
+    .woocommerce-MyAccount-navigation ul li a{
+        color: #9a0a0a;
+        text-decoration: none;
+        font-weight: bolder;
+        background: #D81F38;
+        display: block;
+        padding: 5px 0 5px 25px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    .woocommerce-MyAccount-navigation ul li:last-child a{
+        margin-bottom: 0;
+    }
+    .woocommerce-MyAccount-navigation ul li.is-active a{
+        color: #ff4848; 
+        background: #861322;
+    }
+    .woocommerce form .form-row input.input-text,
+    .woocommerce form .form-row textarea {
+        border-radius: 3px;
+        border: 0.5px solid #d0cece;
+        padding: 5px;
+    }
+    .woocommerce form .form-row input.input-text:focus,
+    .woocommerce form .form-row textarea:focus {
+        box-shadow: 1px 1px 5px 0px #a5a4a4;
+    }
